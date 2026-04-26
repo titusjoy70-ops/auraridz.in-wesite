@@ -1,31 +1,449 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head><meta name="google-site-verification" content="japEAUd-rK_54q6c99ThQW8xB3R6846tTRpluDzkUrc" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AURA RIDZ - REVOLUTION OF CORPORATE TRANSPORT </title>
-  <meta name="description" content="AURA RIDZ helps companies reduce employee transportation costs by 10% to 30% by eliminating empty return rides." />
-  <style>
-    :root{--bg:#071019;--card:#0d1b29;--card2:#102235;--brand:#00f5d4;--blue:#38bdf8;--text:#ffffff;--muted:rgba(255,255,255,.58);--line:rgba(255,255,255,.08)}
-    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6} a{color:inherit;text-decoration:none} img{max-width:100%;display:block}.wrap{max-width:1180px;margin:auto;padding:0 22px}.brand{color:var(--brand)}
-    nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,16,25,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:.02em;font-size:22px}.links{display:flex;align-items:center;gap:26px;color:var(--muted);font-size:14px;font-weight:700}.links a:hover{color:var(--brand)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:14px;padding:14px 24px;font-weight:900;font-size:14px;border:1px solid var(--line);transition:.2s}.btn.primary{background:var(--brand);color:#041014;border-color:var(--brand)}.btn.ghost{background:rgba(255,255,255,.06)}.btn:hover{transform:translateY(-2px)}
-    .hero{min-height:100vh;display:flex;align-items:center;padding:150px 0 90px;position:relative;overflow:hidden;text-align:center}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(7,16,25,.55),var(--bg)),url('https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?auto=format&fit=crop&q=80&w=2000') center/cover;opacity:.75}.hero:after{content:"";position:absolute;width:520px;height:520px;background:rgba(0,245,212,.10);filter:blur(90px);border-radius:999px;right:-180px;top:20px}.hero .wrap{position:relative;z-index:2}.pill{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid rgba(0,245,212,.25);background:rgba(0,245,212,.06);border-radius:999px;color:var(--brand);font-size:11px;font-weight:900;letter-spacing:.18em;text-transform:uppercase}.dot{width:8px;height:8px;background:var(--brand);border-radius:50%;box-shadow:0 0 18px var(--brand)}h1{font-size:clamp(44px,8vw,86px);line-height:1.03;margin:28px 0 20px;font-weight:1000;letter-spacing:-.06em}.lead{max-width:760px;margin:0 auto 34px;color:var(--muted);font-size:clamp(18px,2vw,22px)}.cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}.whatsapp{position:fixed;right:24px;bottom:24px;z-index:30;background:#25D366;color:#fff;border-radius:20px;padding:16px 20px;font-weight:1000;box-shadow:0 20px 50px rgba(0,0,0,.35)}
-    section{padding:105px 0;border-top:1px solid var(--line);position:relative}.title{text-align:center;margin-bottom:54px}.title h2{font-size:clamp(36px,5vw,64px);line-height:1.05;margin:0 0 14px;letter-spacing:-.05em}.title p{color:var(--muted);max-width:700px;margin:auto;font-size:18px}.grid{display:grid;gap:22px}.grid4{grid-template-columns:repeat(4,1fr)}.grid3{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:repeat(2,1fr)}.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:0 20px 60px rgba(0,0,0,.18)}.card h3,.card h4{margin:0 0 12px;line-height:1.15}.card p{margin:0;color:var(--muted);font-size:15px}.icon{width:50px;height:50px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:rgba(0,245,212,.09);color:var(--brand);font-size:24px;margin-bottom:18px}.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.quote{background:rgba(0,245,212,.06);border:1px solid rgba(0,245,212,.22);border-radius:28px;padding:28px;color:var(--brand);font-weight:800;font-size:19px}.mock{border-radius:34px;background:radial-gradient(circle at top right,rgba(0,245,212,.18),transparent 40%),var(--card);border:1px solid var(--line);padding:28px}.route{display:flex;align-items:center;gap:14px;margin:18px 0}.node{width:16px;height:16px;border-radius:50%;background:var(--brand);box-shadow:0 0 25px var(--brand)}.line{height:2px;flex:1;background:linear-gradient(90deg,var(--brand),rgba(255,255,255,.12))}.badge{display:inline-block;border-radius:999px;padding:7px 12px;background:rgba(255,255,255,.06);color:var(--muted);font-size:12px;font-weight:800;margin:5px}.stat{text-align:center}.stat strong{display:block;font-size:42px;line-height:1;color:#fff;margin-bottom:10px}.stat span{color:var(--brand);font-size:11px;font-weight:1000;letter-spacing:.16em;text-transform:uppercase}.image-card{overflow:hidden;padding:0}.image-card img{height:180px;width:100%;object-fit:cover;opacity:.65}.image-card .pad{padding:26px}.contact{background:linear-gradient(120deg,rgba(0,245,212,.08),transparent),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000') center/cover}.form input,.form select{width:100%;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:14px;padding:14px;color:#fff;margin-top:8px}.form label{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:rgba(255,255,255,.4);font-weight:900}.footer{padding:45px 0;color:rgba(255,255,255,.35);border-top:1px solid var(--line)}
-    @media(max-width:900px){.links{display:none}.grid4,.grid3,.grid2,.split{grid-template-columns:1fr}.hero{text-align:left}.cta{justify-content:flex-start}.whatsapp{left:18px;right:18px;text-align:center}.card{padding:24px}}
-  </style>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA RIDZ - REVOLUTION OF CORPORATE TRANSPORT</title>
+    <meta name="description" content="AURA RIDZ offers optimized return-ride booking systems for corporate cabs, reducing costs by 10%-30%.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#00E6C3',
+                        dark: '#050B14',
+                        darker: '#0A0F1C',
+                        gray: '#9CA3AF'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(10, 15, 28, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 230, 195, 0.1);
+        }
+    </style>
 </head>
-<body>
-  <nav><div class="wrap nav"><div class="logo">AURA <span class="brand">RIDZ</span></div><div class="links"><a href="#problem">Problem</a><a href="#solution">Solution</a><a href="#process">Process</a><a href="#products">Products</a><a href="#contact">Partnerships</a><a class="btn" href="https://wa.me/917095761644" target="_blank">WhatsApp</a></div></div></nav>
-  <a class="whatsapp" href="https://wa.me/917095761644" target="_blank">Chat on WhatsApp</a>
-  <header class="hero"><div class="wrap"><div class="pill"><span class="dot"></span>Smarter Corporate Cab Service</div><h1>AURA RIDZ<br><span class="brand">Smart Logistics</span></h1><p class="lead">We help companies reduce employee transportation costs by <b style="color:#fff">10% to 30%</b> by eliminating empty return rides and improving trip efficiency.</p><div class="cta"><a class="btn primary" href="#contact">Request Demo →</a><a class="btn ghost" href="https://wa.me/917095761644" target="_blank">Contact on WhatsApp</a></div></div></header>
-  <section id="problem"><div class="wrap"><div class="title"><h2>The <span class="brand">Pain Points</span></h2><p>Every corporate cab that returns empty is money burned. Traditional systems are static and inefficient.</p></div><div class="grid grid4"><div class="card"><div class="icon">📈</div><h3>High Transport Costs</h3><p>Companies pay substantial premiums for daily employee logistics.</p></div><div class="card"><div class="icon">⚡</div><h3>Empty Return Miles</h3><p>Drivers return empty after every drop-off, wasting resource potential.</p></div><div class="card"><div class="icon">⏱</div><h3>Wasted Resources</h3><p>Fuel, time, and money are drained on unproductive return journeys.</p></div><div class="card"><div class="icon">🛡</div><h3>Static Systems</h3><p>Traditional fleet management lacks dynamic, real-time optimization.</p></div></div></div></section>
-  <section id="solution"><div class="wrap split"><div><h2>The <span class="brand">Smart Solution</span></h2><div class="quote">AURA RIDZ uses a Smart Return Booking System that finds nearby employees and assigns return rides to drivers after a drop, turning empty rides into paid and useful trips.</div><p class="lead" style="margin:24px 0 0">By bridging corporate drop-offs and nearby demand, we create a circular economy in corporate logistics.</p></div><div class="mock"><h3>Smart Return Booking System</h3><div class="route"><span>Drop</span><div class="line"></div><div class="node"></div><div class="line"></div><span>Return Ride</span></div><span class="badge">Predictive Routing</span><span class="badge">Dynamic Clustering</span><span class="badge">Fleet Synergy</span><span class="badge">10 KM Match Radius</span></div></div></section>
-  <section id="process"><div class="wrap"><div class="title"><h2>The <span class="brand">Process</span></h2><p>Four simple steps to operational excellence.</p></div><div class="grid grid4"><div class="card"><div class="icon">⬆️</div><h3>01. Data Onboarding</h3><p>Register company, upload locations, shifts, and employee data via bulk import.</p></div><div class="card"><div class="icon">👥</div><h3>02. Auto-Allocation</h3><p>System clusters nearby employees into shared cabs based on optimized logic.</p></div><div class="card"><div class="icon">✅</div><h3>03. Drop Execution</h3><p>Driver completes drop-off. The system immediately scans for return matches.</p></div><div class="card"><div class="icon">⚡</div><h3>04. Smart Match</h3><p>Nearby return trips are assigned automatically within a 10KM radius.</p></div></div></div></section>
-  <section><div class="wrap split"><div class="card"><h2><span class="brand">Investor</span> Ready Infrastructure</h2><p>Built for enterprise pilots, driver operations, employee transport workflows, and corporate reporting.</p><br><span class="badge">Multi-Company Support</span><span class="badge">Secure Driver Verification</span><span class="badge">Real-Time Tracking</span><span class="badge">Operations Dashboard</span></div><div><h2>Why Choose <span class="brand">AURA RIDZ?</span></h2><div class="grid"><div class="card"><h3>Cost Down for Companies</h3><p>Optimized fleet usage reduces unnecessary payments and dead kilometers.</p></div><div class="card"><h3>More Earnings for Drivers</h3><p>Empty return trips become paid rides, increasing vehicle utilization.</p></div></div></div></div></section>
-  <section id="products"><div class="wrap"><div class="title"><h2>Product <span class="brand">Modules</span></h2><p>Integrated apps for a seamless corporate ecosystem.</p></div><div class="grid grid3"><div class="card image-card"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=900" alt="Admin dashboard"><div class="pad"><h3>Company Admin Panel</h3><p>Upload employees, shift timings, routes, reports, and transport operations.</p></div></div><div class="card image-card"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=900" alt="Employee app"><div class="pad"><h3>Employee App</h3><p>Ride details, pickup status, safety, support, and trip tracking.</p></div></div><div class="card image-card"><img src="https://images.unsplash.com/photo-1449965024630-fc18a4f7396a?auto=format&fit=crop&q=80&w=900" alt="Driver app"><div class="pad"><h3>Partner / Driver App</h3><p>Assigned rides, return matches, OTP confirmation, live navigation, and earnings.</p></div></div></div></div></section>
-  <section id="results"><div class="wrap"><div class="title"><h2>Strategic <span class="brand">Benefits</span></h2></div><div class="grid grid4"><div class="card stat"><strong>10-30%</strong><span>Cost Reduction</span></div><div class="card stat"><strong>Zero</strong><span>Fuel Waste</span></div><div class="card stat"><strong>+40%</strong><span>Driver Earnings</span></div><div class="card stat"><strong>Smart</strong><span>Trip Operations</span></div></div></div></section>
-  <section><div class="wrap"><div class="title"><h2>ROI <span class="brand">Performance Targets</span></h2></div><div class="grid grid3"><div class="card"><h3>&gt;60%</h3><p>Empty Ride Conversion — By Month 3</p></div><div class="card"><h3>20%</h3><p>Cost Savings Per Client — By Month 6</p></div><div class="card"><h3>&gt;90%</h3><p>Auto-Assignment Rate — Ongoing Target</p></div><div class="card"><h3>&lt;60s</h3><p>SOS Response Time — At Launch</p></div><div class="card"><h3>4.2★</h3><p>Driver App Rating — By Month 3</p></div><div class="card"><h3>10K+</h3><p>Concurrent Rides — System Capacity</p></div></div></div></section>
-  <section id="contact" class="contact"><div class="wrap split"><div><h2>Ready to<br><span class="brand">Scale Up?</span></h2><p class="lead" style="margin-left:0">Join the corporate transport revolution. Reduce costs by up to 30% while maximizing fleet utilization.</p><div class="card"><b class="brand">For Corporate Partnerships</b><p>We are open for pilot programs and strategic enterprise integrations in the Hyderabad region.</p></div></div><div class="card form"><div class="grid grid2"><label>Company Name<input placeholder="Google Inc."></label><label>Work Email<input type="email" placeholder="admin@company.com"></label></div><br><label>Interest Area<select><option>Full Fleet Management</option><option>Cost Reduction Audit</option><option>Strategic Partnership</option></select></label><br><br><a class="btn primary" href="https://wa.me/917095761644" target="_blank" style="width:100%">Request Investment Pitch</a></div></div></section>
-  <footer class="footer"><div class="wrap"><div class="logo">AURA <span class="brand">RIDZ</span></div><p>Corporate Cab Service • Hitec City, Hyderabad, India</p><p>© 2026 AURA RIDZ. All Rights Reserved.</p></div></footer>
+<body class="bg-dark text-white antialiased selection:bg-brand selection:text-dark">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-panel">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fa-solid fa-car-side text-brand text-3xl"></i>
+                    <span class="font-bold text-2xl tracking-tight text-white">AURA RIDZ</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#problem" class="text-gray hover:text-brand transition-colors font-medium">Pain Point</a>
+                    <a href="#solution" class="text-gray hover:text-brand transition-colors font-medium">Solution</a>
+                    <a href="#how-it-works" class="text-gray hover:text-brand transition-colors font-medium">How it Works</a>
+                    <a href="#benefits" class="text-gray hover:text-brand transition-colors font-medium">Benefits</a>
+                    <a href="#investors" class="text-gray hover:text-brand transition-colors font-medium">Investor Opportunity</a>
+                    <a href="#demo" class="bg-brand text-dark px-6 py-2.5 rounded-full font-bold transition-all shadow-[0_0_15px_rgba(0,230,195,0.3)] hover:shadow-[0_0_25px_rgba(0,230,195,0.6)] transform hover:-translate-y-0.5">Request Demo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-dark">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-dark/90 z-10"></div>
+            <!-- Placeholder for hero image -->
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop" alt="Corporate Fleet" class="w-full h-full object-cover opacity-30" />
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-darker border border-brand/30 text-white mb-6">
+                    <span class="flex h-2 w-2 rounded-full bg-brand shadow-[0_0_8px_rgba(0,230,195,0.8)]"></span>
+                    <span class="text-sm font-medium tracking-wide uppercase text-brand">Smart Corporate Logistics</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                    AURA RIDZ - <span class="text-brand">REVOLUTION OF CORPORATE TRANSPORT</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray mb-8 max-w-xl leading-relaxed">
+                    Aura Ridz introduces India's first smart return-ride booking system, turning empty corporate cabs into cost-saving opportunities. Save 10%-30%.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#demo" class="bg-brand hover:bg-white text-dark px-8 py-4 rounded-full font-bold text-lg transition-all shadow-[0_0_15px_rgba(0,230,195,0.3)] hover:shadow-[0_0_25px_rgba(0,230,195,0.6)] text-center flex items-center justify-center gap-2">
+                        Get Started <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#how-it-works" class="bg-darker hover:bg-dark border border-brand/30 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all text-center">
+                        See How It Works
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-20 bg-darker">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-brand font-semibold tracking-wide uppercase text-sm mb-2">The Pain Points</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Every corporate cab that returns empty is money burned. Traditional systems are static and inefficient.</h3>
+                <p class="text-lg text-gray">Corporate logistics are stuck in the past, leaving every unused return journey as a direct cost to the business.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-dark rounded-2xl p-8 border border-brand/20 hover:border-brand/50 transition-colors duration-300">
+                    <div class="w-14 h-14 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">High Transport Costs</h4>
+                    <p class="text-gray">Companies pay substantial premiums for daily employee logistics.</p>
+                </div>
+                <div class="bg-dark rounded-2xl p-8 border border-brand/20 hover:border-brand/50 transition-colors duration-300">
+                    <div class="w-14 h-14 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-road-circle-check"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Empty Return Miles</h4>
+                    <p class="text-gray">Drivers return empty after every drop-off, wasting resource potential.</p>
+                </div>
+                <div class="bg-dark rounded-2xl p-8 border border-brand/20 hover:border-brand/50 transition-colors duration-300">
+                    <div class="w-14 h-14 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-gas-pump"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Wasted Resources</h4>
+                    <p class="text-gray">Fuel, time, and money are drained on unproductive return journeys.</p>
+                </div>
+                <div class="bg-dark rounded-2xl p-8 border border-brand/20 hover:border-brand/50 transition-colors duration-300">
+                    <div class="w-14 h-14 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-arrows-spin"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Static Systems</h4>
+                    <p class="text-gray">Traditional fleet management lacks dynamic, real-time optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="py-20 bg-dark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 -translate-y-12 translate-x-1/3">
+            <div class="w-96 h-96 bg-brand rounded-full filter blur-[100px] opacity-10"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-brand font-semibold tracking-wide uppercase text-sm mb-2">The Aura Ridz Solution</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold mb-6 text-white">Smart Return Booking System</h3>
+                    <p class="text-lg text-gray mb-8 leading-relaxed">
+                        We connect companies to utilize each other's empty return rides. When Company A's cab drops an employee at a tech park, our system instantly maps it to Company B's employee needing a ride back from the same vicinity.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle text-brand mt-1"></i>
+                            <span class="text-white">Real-time dynamic matching algorithm</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle text-brand mt-1"></i>
+                            <span class="text-white">Secure corporate-only network</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle text-brand mt-1"></i>
+                            <span class="text-white">Automated billing and cost splitting</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <div class="bg-darker border border-brand/20 rounded-2xl p-2 shadow-[0_0_30px_rgba(0,230,195,0.15)] relative z-10 transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="App Dashboard" class="rounded-xl opacity-80" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 bg-darker">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-brand font-semibold tracking-wide uppercase text-sm mb-2">The Process</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Four simple steps to operational excellence.</h3>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8 relative">
+                <!-- Connecting Line -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-brand/20 -z-10 -translate-y-1/2"></div>
+                
+                <div class="bg-dark p-6 rounded-2xl border border-brand/20 text-center relative z-10">
+                    <div class="w-12 h-12 bg-brand text-dark rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4 border-4 border-dark shadow-[0_0_10px_rgba(0,230,195,0.4)]">1</div>
+                    <h4 class="font-bold text-white text-lg mb-2">⬆️ Data Onboarding</h4>
+                    <p class="text-sm text-gray">Register company, upload locations, shifts, and employee data via bulk import.</p>
+                </div>
+                <div class="bg-dark p-6 rounded-2xl border border-brand/20 text-center relative z-10">
+                    <div class="w-12 h-12 bg-brand text-dark rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4 border-4 border-dark shadow-[0_0_10px_rgba(0,230,195,0.4)]">2</div>
+                    <h4 class="font-bold text-white text-lg mb-2">👥 Auto-Allocation</h4>
+                    <p class="text-sm text-gray">System clusters nearby employees into shared cabs using optimized route logic and proximity-based grouping.</p>
+                </div>
+                <div class="bg-dark p-6 rounded-2xl border border-brand/20 text-center relative z-10">
+                    <div class="w-12 h-12 bg-brand text-dark rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4 border-4 border-dark shadow-[0_0_10px_rgba(0,230,195,0.4)]">3</div>
+                    <h4 class="font-bold text-white text-lg mb-2">✅ Drop Execution</h4>
+                    <p class="text-sm text-gray">Driver completes drop-off. The system immediately scans for return matches.</p>
+                </div>
+                <div class="bg-dark p-6 rounded-2xl border border-brand/20 text-center relative z-10">
+                    <div class="w-12 h-12 bg-brand text-dark rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4 border-4 border-dark shadow-[0_0_10px_rgba(0,230,195,0.4)]">4</div>
+                    <h4 class="font-bold text-white text-lg mb-2">⚡ Smart Match</h4>
+                    <p class="text-sm text-gray">Nearby return trips are assigned automatically within a 10KM radius.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 bg-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-brand font-semibold tracking-wide uppercase text-sm mb-2">Value Proposition</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose Aura Ridz</h3>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="flex gap-4 p-6 rounded-2xl border border-transparent hover:border-brand/30 hover:bg-darker transition-colors">
+                    <div class="flex-shrink-0 w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">10-30% Cost Savings</h4>
+                        <p class="text-gray text-sm">Significantly reduce your monthly transportation budget.</p>
+                    </div>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="flex gap-4 p-6 rounded-2xl border border-transparent hover:border-brand/30 hover:bg-darker transition-colors">
+                    <div class="flex-shrink-0 w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Verified Corporate Network</h4>
+                        <p class="text-gray text-sm">Strictly B2B platform ensuring employee safety and security.</p>
+                    </div>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="flex gap-4 p-6 rounded-2xl border border-transparent hover:border-brand/30 hover:bg-darker transition-colors">
+                    <div class="flex-shrink-0 w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Eco-Friendly</h4>
+                        <p class="text-gray text-sm">Help achieve ESG goals by reducing carbon footprint.</p>
+                    </div>
+                </div>
+                <!-- Benefit 4 -->
+                <div class="flex gap-4 p-6 rounded-2xl border border-transparent hover:border-brand/30 hover:bg-darker transition-colors">
+                    <div class="flex-shrink-0 w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Detailed Analytics</h4>
+                        <p class="text-gray text-sm">Comprehensive dashboard tracking savings and environmental impact.</p>
+                    </div>
+                </div>
+                <!-- Benefit 5 -->
+                <div class="flex gap-4 p-6 rounded-2xl border border-transparent hover:border-brand/30 hover:bg-darker transition-colors">
+                    <div class="flex-shrink-0 w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">High Availability</h4>
+                        <p class="text-gray text-sm">Access to a wider fleet pool across the city.</p>
+                    </div>
+                </div>
+                <!-- Benefit 6 -->
+                <div class="flex gap-4 p-6 rounded-2xl border border-transparent hover:border-brand/30 hover:bg-darker transition-colors">
+                    <div class="flex-shrink-0 w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-file-invoice"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Automated Billing</h4>
+                        <p class="text-gray text-sm">Seamless inter-company cost splitting and invoicing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investors Section -->
+    <section id="investors" class="py-20 bg-darker text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto mb-16">
+                <h2 class="text-brand font-semibold tracking-wide uppercase text-sm mb-2 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-rocket text-2xl"></i> INVESTOR OPPORTUNITY
+                </h2>
+                <h3 class="text-3xl md:text-4xl font-bold mb-6 text-white">Disrupting a Multi-Billion Dollar Market</h3>
+                <p class="text-lg text-gray mb-8 leading-relaxed">
+                    AURA RIDZ is transforming the highly inefficient corporate mobility sector by eliminating empty return rides and optimizing fleet utilization. With a high-margin, asset-light model, strong B2B retention, and a scalable tech-driven platform, we are positioned to expand rapidly across major metro cities.
+                </p>
+            </div>
+
+            <!-- Key Highlights -->
+            <div class="mb-16">
+                <h4 class="text-2xl font-bold text-white mb-8 text-center flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-chart-bar text-brand"></i> KEY HIGHLIGHTS
+                </h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-dark rounded-xl p-8 border border-brand/20 hover:border-brand/50 transition-all">
+                        <div class="text-2xl mb-3">⚡</div>
+                        <h5 class="text-xl font-bold text-white mb-3">Up to 30% Cost Efficiency Gain</h5>
+                        <p class="text-gray">Reduce corporate transportation costs through smart route optimization and return ride matching.</p>
+                    </div>
+                    <div class="bg-dark rounded-xl p-8 border border-brand/20 hover:border-brand/50 transition-all">
+                        <div class="text-2xl mb-3">📍</div>
+                        <h5 class="text-xl font-bold text-white mb-3">Hyderabad – Initial Launch Market</h5>
+                        <p class="text-gray">A high-density IT hub with 1M+ workforce and strong daily transport demand.</p>
+                    </div>
+                    <div class="bg-dark rounded-xl p-8 border border-brand/20 hover:border-brand/50 transition-all">
+                        <div class="text-2xl mb-3">🚀</div>
+                        <h5 class="text-xl font-bold text-white mb-3">Asset-Light Model</h5>
+                        <p class="text-gray">No fleet ownership — leveraging existing drivers for faster scaling and lower risk.</p>
+                    </div>
+                    <div class="bg-dark rounded-xl p-8 border border-brand/20 hover:border-brand/50 transition-all">
+                        <div class="text-2xl mb-3">💼</div>
+                        <h5 class="text-xl font-bold text-white mb-3">B2B SaaS + Commission Revenue</h5>
+                        <p class="text-gray">Subscription from companies • Commission per ride • Long-term enterprise contracts</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why AURA RIDZ -->
+            <div class="mb-16 bg-dark rounded-2xl border border-brand/20 p-10 max-w-4xl mx-auto">
+                <h4 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+                    <i class="fa-solid fa-lightbulb text-brand"></i> WHY AURA RIDZ?
+                </h4>
+                <ul class="space-y-4 text-gray text-lg">
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand font-bold text-2xl leading-none">→</span>
+                        <span><strong class="text-white">Eliminates empty rides</strong> converts into revenue</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand font-bold text-2xl leading-none">→</span>
+                        <span><strong class="text-white">Improves driver earnings</strong> + company savings</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand font-bold text-2xl leading-none">→</span>
+                        <span><strong class="text-white">Unlocks a ₹1000Cr+ market opportunity</strong> in Hyderabad alone</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Investment Edge -->
+            <div class="text-center max-w-3xl mx-auto bg-gradient-to-r from-brand/10 to-darker rounded-2xl border border-brand/30 p-10">
+                <h4 class="text-2xl font-bold text-white mb-4 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-fire text-brand"></i> INVESTMENT EDGE
+                </h4>
+                <p class="text-xl text-white italic font-semibold">
+                    "We don't just move people — we optimize an entire transportation economy."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo / Contact Section -->
+    <section id="demo" class="py-20 bg-dark relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-darker rounded-3xl border border-brand/30 shadow-[0_0_40px_rgba(0,230,195,0.1)] overflow-hidden flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 p-10 lg:p-16 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-brand/20">
+                    <h3 class="text-3xl font-bold text-white mb-4">Ready to cut your transport costs?</h3>
+                    <p class="text-gray mb-8">Request a personalized demo to see how much your company can save with Aura Ridz's smart return system.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-brand/10 text-brand rounded-full flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray font-medium">Email Us</p>
+                                <p class="text-white font-semibold">hello@auraridz.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-brand/10 text-brand rounded-full flex items-center justify-center text-xl">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray font-medium">WhatsApp</p>
+                                <p class="text-white font-semibold">+91 7095761644</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-brand/10 text-brand rounded-full flex items-center justify-center text-xl">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray font-medium">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/tamatam-titus-711778344" target="_blank" class="text-white font-semibold hover:text-brand transition-colors">Tamatam Titus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 p-10 lg:p-16 bg-darker">
+                    <form class="space-y-6" onsubmit="event.preventDefault(); alert('Demo request submitted successfully!');">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray mb-2">First Name</label>
+                                <input type="text" class="w-full bg-dark px-4 py-3 rounded-lg border border-brand/30 text-white focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all placeholder-gray" placeholder="John" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray mb-2">Last Name</label>
+                                <input type="text" class="w-full bg-dark px-4 py-3 rounded-lg border border-brand/30 text-white focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all placeholder-gray" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray mb-2">Company Email</label>
+                            <input type="email" class="w-full bg-dark px-4 py-3 rounded-lg border border-brand/30 text-white focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all placeholder-gray" placeholder="john@company.com" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray mb-2">Company Size</label>
+                            <select class="w-full bg-dark px-4 py-3 rounded-lg border border-brand/30 text-white focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all appearance-none" required>
+                                <option value="" disabled selected class="text-gray">Select employees</option>
+                                <option value="1-50">1-50 Employees</option>
+                                <option value="51-200">51-200 Employees</option>
+                                <option value="201-1000">201-1000 Employees</option>
+                                <option value="1000+">1000+ Employees</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="w-full bg-brand hover:bg-white text-dark font-bold py-4 rounded-lg transition-colors shadow-[0_0_15px_rgba(0,230,195,0.3)]">
+                            Request Demo
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#02050A] text-gray py-12 border-t border-brand/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center gap-2 mb-4 md:mb-0">
+                    <i class="fa-solid fa-car-side text-brand text-2xl"></i>
+                    <span class="font-bold text-xl tracking-tight text-white">AURA RIDZ</span>
+                </div>
+                <div class="text-sm">
+                    &copy; 2026 Aura Ridz (Hyderabad). All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917095761644" target="_blank" class="fixed bottom-6 right-6 bg-brand text-dark w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-[0_0_15px_rgba(0,230,195,0.5)] hover:bg-white transition-all z-50 hover:scale-110 transform duration-200">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
 </body>
 </html>
+
+
